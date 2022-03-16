@@ -1,15 +1,30 @@
-figure{
-    position: relative;
-    width: 30%;
+*{
+    box-sizing: border-box;
 }
 
-div{ /* da togliere*/
- width: 100%;
+div{
+    display: inline-block;
 }
 
-img{
+.img1{
     position: relative;
-    width: 100%;
+    
+}
+
+.img2{
+    position: relative;
+  
+}
+
+.img3{
+    position: relative;
+  
+}
+
+figure img{
+    position: relative;
+    margin: 0;
+    
 }
 
 p.sconto-30{
@@ -34,4 +49,9 @@ p.sconto-30{
     margin: 0;
 }
 
-main
+
+
+figure{
+    width: 100%;
+    margin: 0;
+}
